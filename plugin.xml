@@ -43,6 +43,7 @@ In order to install PhoneRTC on iOS, please follow these steps:
 			</feature>
         </config-file>
 
+<!--
 		<header-file src="src/ios/RTCAudioSource.h" />
 		<header-file src="src/ios/RTCAudioTrack.h" />	
 		<header-file src="src/ios/RTCDataChannel.h" />
@@ -77,6 +78,7 @@ In order to install PhoneRTC on iOS, please follow these steps:
 		<source-file src="src/ios/Session.swift" />
         <source-file src="src/ios/Config.swift" />
 		<source-file src="src/ios/SessionDescriptionDelegate.swift" />
+-->
 
 		<framework src="libc++.dylib" />
         <framework src="libstdc++.dylib" />
@@ -165,7 +167,6 @@ In order to install PhoneRTC on iOS, please follow these steps:
 		<source-file src="libs/ios/libwebrtc.a" framework="true" />
 		<source-file src="libs/ios/libyuv_neon.a" framework="true" />
 		<source-file src="libs/ios/libyuv.a" framework="true" />
--->
 
 <source-file src="libs/ios/libjingle_peerconnection_objc.a" framework="true" />
 <source-file src="libs/ios/libsocketrocket.a" framework="true" />
@@ -238,6 +239,7 @@ In order to install PhoneRTC on iOS, please follow these steps:
 <source-file src="libs/ios/libvideo_render_module_internal_impl.a" framework="true" />
 <source-file src="libs/ios/libjingle_p2p.a" framework="true" />
 <source-file src="libs/ios/libsrtp.a" framework="true" />
+-->
     </platform>
 
     <platform name="android">
